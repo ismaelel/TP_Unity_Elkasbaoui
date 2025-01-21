@@ -73,6 +73,9 @@ Placez les fichiers du backend dans le répertoire racine du serveur web (par ex
 
 ## Astuces
 
+### Début
+
+Lancer l'application depuis la scène "Login"
 ### Connexion 
 
 Vous pouvez créer un compte et vous connecter avec, ou voici des identifiants : 

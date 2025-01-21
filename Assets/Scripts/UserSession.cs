@@ -3,7 +3,7 @@ using UnityEngine;
 public static class UserSession
 {
     public static int CurrentUserId; 
-    public static string CurrentUsername;
+    public static string CurrentUsername; // pas utilisé au final
     
     public static void Logout()
     {

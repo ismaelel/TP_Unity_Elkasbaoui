@@ -9,33 +9,32 @@ using UnityEngine.UI;
 public class RegistrationManager : MonoBehaviour
 {
     [Header("UI Elements")]
-    public InputField UsernameInput; // Champ pour le nom d'utilisateur
-    public InputField PasswordInput; // Champ pour le mot de passe
-    public Button RegisterButton; // Bouton d'inscription
-    public Text FeedbackText; // Texte pour afficher les messages
+    public InputField UsernameInput; 
+    public InputField PasswordInput; 
+    public Button RegisterButton; 
+    public Text FeedbackText; 
 
     [Header("Server URL")]
     public string registerUrl = "http://localhost/unity_project/register_user.php";
 
     private void Start()
     {
-        // Lier le bouton d'inscription à la fonction RegisterUser
         RegisterButton.onClick.AddListener(RegisterUser);
     }
 
     private void RegisterUser()
     {
-        // Vérifiez que les champs ne sont pas vides
+        // On vérifie que les champs ne sont pas vides
         if (string.IsNullOrEmpty(UsernameInput.text) || string.IsNullOrEmpty(PasswordInput.text))
         {
             FeedbackText.text = "Veuillez remplir tous les champs.";
             return;
         }
 
-        // Hacher le mot de passe
+        // Hachage du mot de passe
         string hashedPassword = HashPassword(PasswordInput.text);
 
-        // Envoyer les données au serveur
+        // Envoi des données au serveur
         StartCoroutine(SendRegistrationData(UsernameInput.text, hashedPassword));
     }
 

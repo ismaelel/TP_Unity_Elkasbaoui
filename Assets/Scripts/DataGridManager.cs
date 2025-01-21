@@ -14,8 +14,7 @@ public class DataGridManager : MonoBehaviour
         // Récupérer les statistiques de l'utilisateur actuellement connecté
         StartCoroutine(GetGameStats(UserSession.CurrentUserId)); 
     }
-
-    // Public method to update stats display
+    
     public void UpdateStatsDisplay()
     {
         StartCoroutine(GetGameStats(UserSession.CurrentUserId));
@@ -41,12 +40,12 @@ public class DataGridManager : MonoBehaviour
         {
             yield return www.SendWebRequest();
 
-            // Vérifier si la requête a réussi
+            // On vérifie si la requête a réussi
             if (www.result == UnityWebRequest.Result.Success)
             {
                 string response = www.downloadHandler.text;
 
-                // Vérifier si la réponse est vide
+                // On vérifie si la réponse est vide
                 if (string.IsNullOrEmpty(response))
                 {
                     Debug.LogError("Réponse vide du serveur.");
@@ -107,7 +106,7 @@ public class DataGridManager : MonoBehaviour
 [System.Serializable]
 public class StatsResponse
 {
-    public string gameDate; // Date de la partie
+    public string gameDate;
     public int score;
     public int level;
     
