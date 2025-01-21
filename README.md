@@ -49,7 +49,7 @@ Placez les fichiers du backend dans le répertoire racine du serveur web (par ex
    
 
 3. **Créez une base de données MySQL :**
-  Connectez-vous à votre serveur MySQL et exécutez les scripts SQL dans le dossier database_scripts pour créer les tables nécessaires.
+  Connectez-vous à votre serveur MySQL et exécutez le script SQL https://github.com/ismaelel/unity_project/blob/main/unity1.sql .
     
 
 4. **Configurez les paramètres de connexion à la base de données :**
@@ -57,7 +57,7 @@ Placez les fichiers du backend dans le répertoire racine du serveur web (par ex
     ```php
         <?php
         define('DB_HOST', 'localhost');
-        define('DB_NAME', 'unity_stats');
+        define('DB_NAME', 'unity1');
         define('DB_USER', 'root');
         define('DB_PASSWORD', 'root');
         ?>
