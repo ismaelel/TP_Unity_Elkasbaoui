@@ -54,13 +54,14 @@ Placez les fichiers du backend dans le répertoire racine du serveur web (par ex
 
 4. **Configurez les paramètres de connexion à la base de données :**
    Modifiez le fichier config.php avec vos informations :
-   ```php
-   <?php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'unity_stats');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'root');
-?>```
+    ```php
+        <?php
+        define('DB_HOST', 'localhost');
+        define('DB_NAME', 'unity_stats');
+        define('DB_USER', 'root');
+        define('DB_PASSWORD', 'root');
+        ?>
+    ```
 
 
 ## Déploiement
