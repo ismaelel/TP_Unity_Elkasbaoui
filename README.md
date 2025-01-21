@@ -71,3 +71,23 @@ Placez les fichiers du backend dans le répertoire racine du serveur web (par ex
 1. **Configurez le projet pour Android ou une autre plateforme cible.**
 2. **Générez le build** depuis **File > Build Settings > Build**.
 
+## Astuces
+
+### Connexion 
+
+Vous pouvez créer un compte et vous connecter avec, ou voici des identifiants : 
+
+    - identifiant : wath
+    - mot de passe : wath
+
+### Statistiques
+
+Les dernières parties sont affichées, vous pouvez lancer une partie qui se finira automatiquement avec des données aléatoires, pour tester l'affichage. 
+Les statistiques s'affichent pour l'utilisateur en cours.
+
+### Musique
+
+N'hésitez pas à activer votre son et découvrir la bande son officielle du jeu !
+
+### Déconnexion
+
