@@ -88,5 +88,3 @@ Les statistiques s'affichent pour l'utilisateur en cours.
 ### Musique
 
 N'hésitez pas à activer votre son et découvrir la bande son officielle du jeu !
-
-
