@@ -220,7 +220,7 @@ RectTransform:
   - {fileID: 1272491582}
   - {fileID: 939071964}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.437, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1461,8 +1461,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1874771162}
   m_TextComponent: {fileID: 658050988}
   m_Placeholder: {fileID: 2099141269}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0

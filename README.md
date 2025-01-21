@@ -80,8 +80,8 @@ Lancer l'application depuis la scène "Login"
 
 Vous pouvez créer un compte et vous connecter avec, ou voici des identifiants : 
 
-    - identifiant : wath
-    - mot de passe : wath
+    - identifiant : ismael
+    - mot de passe : ism123
 
 ### Statistiques
 
